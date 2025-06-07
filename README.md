@@ -1,5 +1,23 @@
-# Text-Editor-Undo
-A basic text editor built using stack to support undo functionality.
+# Text Editor with Undo
+
+A simple command-line text editor that allows typing, deleting, and undoing actions using a stack data structure.
+
+## Features
+- Type characters
+- Delete characters
+- Undo last operation (using stack)
+
+## Concepts Used
+- Stack
+- String Manipulation
+
+## How to Run
+1. Compile: `g++ text_editor.cpp -o editor`
+2. Run: `./editor`
+
+## Author
+[@25jasmeen](https://github.com/25jasmeen)
+
 #include <iostream>
 #include <stack>
 using namespace std;
